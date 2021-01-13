@@ -2,15 +2,10 @@ import React from "react";
 
 export const NavBar = () => {
   return (
-    /* <div className="containerNav">
-      <div className="logo">LOGO</div>
-      <p>HOME</p>
-      <p>Categorias</p>
-      <p>Carrito</p>
-    </div>*/
+    
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <a className="navbar-brand" href="#">
-        ICONOPAG
+        LOGO
       </a>
       <button
         className="navbar-toggler"
@@ -32,17 +27,17 @@ export const NavBar = () => {
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#">
-              LINK1
+              Acuaticos
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#">
-              LINK2
+              Terrestres
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link disabled" href="#">
-              LINKDISABL
+              Voladores
             </a>
           </li>
         </ul>
